@@ -1,0 +1,69 @@
+/ProductCatalogApi/ProductCatalogApi.csproj
+
+# Build output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+artifacts/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+# ASP.NET Core secrets and configuration
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Test results and coverage
+TestResults/
+coverage/
+coverage.*
+
+# Publish output
+publish/
+wwwroot/lib/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Database files (if generated locally)
+*.mdf
+*.ldf
+*.sqlite
+*.db
+
+# Generated files
+Generated/
